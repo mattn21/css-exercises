@@ -1,0 +1,20 @@
+/* class selectors  */
+
+.dad,
+.mom {
+    font-size: 28px;
+    font-family: Helvetica, Times 'Times New Roman', sans-serif;
+    
+}
+
+.mom {
+    background-color: yellow;
+
+}
+
+.dad {
+
+    background-color: black;
+    color: white;
+
+}
