@@ -1,0 +1,57 @@
+/* styles.css */
+
+/* Type Selectors */
+div {
+    color: white;
+}
+
+/* class selectors */
+.first-line {
+    color: white;
+    background-color: red;
+    font-size: 32px;
+    display: inline;
+}
+
+
+.alert-text {
+
+    color: white;
+    background-color: red;
+}
+
+/* ID Selectors */
+#title {
+    background-color: blue;
+}
+
+/* Grouping Selectors */
+.read,
+.unread {
+
+    color: white;
+    background-color: black;
+}
+.read {
+
+}
+
+.unread {
+
+}
+
+/* Chaining selectors */
+.subsection.header {
+    color: red;
+}
+
+.subsection#preview {
+    color: blue;
+
+}
+
+/* Descendant Selectors */
+.ancestor .contents {
+
+    color: yellow;
+}
